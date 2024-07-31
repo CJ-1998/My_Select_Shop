@@ -9,4 +9,6 @@ public interface FolderRepository extends JpaRepository<Folder, Long> {
     List<Folder> findAllByUserAndNameIn(User user, List<String> folderNames);
     // select * from folder where user_id = ? and name in (?, ?, ?...);
     // 뒤의 물음표는 folderNames 개수
+
+    List<Folder> findAllByUser(User user);
 }

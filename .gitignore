@@ -38,3 +38,5 @@ out/
 
 ### .properties file ###
 application-db.properties
+application-remotedb.properties
+application-naver.properties

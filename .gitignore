@@ -37,6 +37,6 @@ out/
 .vscode/
 
 ### .properties file ###
-application-db.properties
-application-remotedb.properties
+application-dev.properties
+application-prod.properties
 application-naver.properties
